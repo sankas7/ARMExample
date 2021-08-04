@@ -21,6 +21,6 @@ steps:
     location: 'Central US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/sankas7/ARMExample/main/azuredeploy.json'
-    overrideParameters: '-projectName myarmpipeline'
+    overrideParameters: '-projectName armpipeline'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
